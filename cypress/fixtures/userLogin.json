@@ -1,0 +1,13 @@
+{
+  "loginName": "webdriverio2",
+  "wrongLoginName": "WrongLoginName",
+  "password": "webdriverio2",
+  "wrongPassword": "WrongPassword",
+  "firstName": "FirstName",
+  "lastName": "LastName",
+  "email": "admin@automationteststore.com",
+  "telephone": "07040000000",
+  "fax": "07040000001"
+
+  
+ }

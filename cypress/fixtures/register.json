@@ -1,0 +1,15 @@
+{
+  "password" : "Password123",
+  "confirmPassword" : "Password123",  
+  "countryName" : "United Kingdom",
+  "firstName" : "FirstName",
+  "lastName" : "LastName",
+  "addressOne" : "123 World Str",
+  "addressTwo" : "Gorton South",
+  "companyName" : "Your Company Ltd",
+  "cityName" : "Manchester",
+  "regionOrStateName" : "Lancashire",
+  "zipOrPostCode" : "M11 7YR",
+  "telephone" : "07405000000",
+  "fax" : "07405000001"
+}

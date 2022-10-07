@@ -1,0 +1,12 @@
+{
+  "name": "Using-fixtures",
+  "email": "hello@cypress.io",
+  "firstName": "FirstName",
+  "lastName": "LastName",
+  "message": "Fixtures are a great way to mock data for responses to routes",
+  "gender":"Female",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "first_name": "Joe",
+  "last_name": "blogs",
+  "productName": ["Blackberry","Nokia Edge"]
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verifying e-commerce Search to Order item functionality",
+    "line": 1,
+    "id": "verifying-e-commerce-search-to-order-item-functionality",
+    "tags": [],
+    "uri": "e2e.feature",
+    "elements": [
+      {
+        "id": "verifying-e-commerce-search-to-order-item-functionality;user-should-be-able-to-place-an-order",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "user should be able to place an order",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on index page url as \"https://automationteststore.com/\" and page title as \"A place to practice your automation skills!\"",
+            "result": {
+              "status": "undefined",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on search box and enters product name as \"Lipstick\" and click on search button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be able to see search result item and click on add to cart button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters a number in quantity box to increases items by \"4\" and clicks on remove icon to remove from cart",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user enters a new product as \"Lipstick\" and click on search button and increases items by \"6\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user verifies the product item by item image, unit price, quantity and grand total",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks on the Checkout button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user should be on account login page with option to login as \"Returning Customer\" or create an Account as \"I am a new customer.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user enters login Name as \"datastudioplace\" and password as \"Manchester1\" and clicks on Login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user on checkout confirmation page and validates all the order details displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user clicks on confirm order button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user presented with a checkout success page as \"Your order #3030 has been created!\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user gets an order number as \"Your order #3030 has been created!\" and thank message displayed as \"Thank you for shopping with us!\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user clicks on continue and logout button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user is back to home page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

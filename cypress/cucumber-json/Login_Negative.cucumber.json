@@ -1,0 +1,432 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Page - User Unsuccessful Login attempts",
+    "line": 1,
+    "id": "login-page---user-unsuccessful-login-attempts",
+    "tags": [],
+    "uri": "Login_Negative.feature",
+    "elements": [
+      {
+        "id": "login-page---user-unsuccessful-login-attempts;user-should-not-be-able-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User should NOT be able to login with invalid credentials",
+        "tags": [
+          {
+            "name": "@NegativeLogin",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on index page url as \"https://automationteststore.com/\" and page title as \"A place to practice your automation skills!\"",
+            "result": {
+              "status": "undefined",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Login Or Register link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be on account login page with option to login as \"Returning Customer\" or create an Account as \"I am a new customer.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters wrong combination of both login Name as \"WrongLoginName\" or password as \"Manchester1\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on Login_Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user gets error message as \"Error: Incorrect login or password provided.\" and still on Home page title as \"Account Login\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page---user-unsuccessful-login-attempts;user-should-not-be-able-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User should NOT be able to login with invalid credentials",
+        "tags": [
+          {
+            "name": "@NegativeLogin",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on index page url as \"https://automationteststore.com/\" and page title as \"A place to practice your automation skills!\"",
+            "result": {
+              "status": "undefined",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Login Or Register link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be on account login page with option to login as \"Returning Customer\" or create an Account as \"I am a new customer.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters wrong combination of both login Name as \"datastudioplace\" or password as \"WrongPassword\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on Login_Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user gets error message as \"Error: Incorrect login or password provided.\" and still on Home page title as \"Account Login\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page---user-unsuccessful-login-attempts;user-should-not-be-able-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User should NOT be able to login with invalid credentials",
+        "tags": [
+          {
+            "name": "@NegativeLogin",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on index page url as \"https://automationteststore.com/\" and page title as \"A place to practice your automation skills!\"",
+            "result": {
+              "status": "undefined",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Login Or Register link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be on account login page with option to login as \"Returning Customer\" or create an Account as \"I am a new customer.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters wrong combination of both login Name as \"WrongLoginName\" or password as \"WrongPassword\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on Login_Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user gets error message as \"Error: Incorrect login or password provided.\" and still on Home page title as \"Account Login\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page---user-unsuccessful-login-attempts;user-should-not-be-able-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "User should NOT be able to login with invalid credentials",
+        "tags": [
+          {
+            "name": "@NegativeLogin",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on index page url as \"https://automationteststore.com/\" and page title as \"A place to practice your automation skills!\"",
+            "result": {
+              "status": "undefined",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Login Or Register link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be on account login page with option to login as \"Returning Customer\" or create an Account as \"I am a new customer.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters wrong combination of both login Name as \"\" or password as \"\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on Login_Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user gets error message as \"Error: Incorrect login or password provided.\" and still on Home page title as \"Account Login\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page---user-unsuccessful-login-attempts;user-should-not-be-able-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "User should NOT be able to login with invalid credentials",
+        "tags": [
+          {
+            "name": "@NegativeLogin",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on index page url as \"https://automationteststore.com/\" and page title as \"A place to practice your automation skills!\"",
+            "result": {
+              "status": "undefined",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Login Or Register link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be on account login page with option to login as \"Returning Customer\" or create an Account as \"I am a new customer.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters wrong combination of both login Name as \"datastudioplace\" or password as \"\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on Login_Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user gets error message as \"Error: Incorrect login or password provided.\" and still on Home page title as \"Account Login\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page---user-unsuccessful-login-attempts;user-should-not-be-able-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "User should NOT be able to login with invalid credentials",
+        "tags": [
+          {
+            "name": "@NegativeLogin",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user on index page url as \"https://automationteststore.com/\" and page title as \"A place to practice your automation skills!\"",
+            "result": {
+              "status": "undefined",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on Login Or Register link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be on account login page with option to login as \"Returning Customer\" or create an Account as \"I am a new customer.\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters wrong combination of both login Name as \"\" or password as \"Manchester1\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on Login_Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user gets error message as \"Error: Incorrect login or password provided.\" and still on Home page title as \"Account Login\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
